@@ -1,0 +1,3 @@
+cd cuda; cat README 
+cd MPI; make
+cd OpenMP; make

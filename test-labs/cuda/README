@@ -1,0 +1,2 @@
+nvcc -Xcompiler \-fopenmp -lgomp mm_omp_vs_cuda.cu -o mm_omp_vs_cuda.exe
+nvcc matrix_cuda.cu -o matrix_cuda.exe
