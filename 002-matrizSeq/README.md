@@ -15,6 +15,7 @@ make clean
 
 ## Arquivos
 
+- O arquivo mainEx02 foi alterado para soma_multiplicacao 
 - A Matriz A está no arquivo mat_a3x4.exemple
 - A Matriz B está no arquivo mat_b4x3.exemple
 
