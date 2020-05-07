@@ -4,8 +4,6 @@
 #include "toolsv3.h"
 #include "matrizv3.h"
 
-
-// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 int main(int argc, char **argv) {
 	FILE *fmat0;
 	FILE *fmat1;
@@ -34,8 +32,7 @@ int main(int argc, char **argv) {
 	mma0.matriz = NULL;
 	mma0.lin = linha;
 	mma0.col = coluna;
-	if (malocar(&mma0)) {	//
-	// printf("##### Arquivo %dx%d-mat.map: VERIFICADO! #####\n", linha, coluna);
+	if (malocar(&mma0)) {	
 
 		printf ("ERROR: Out of memory\n");
 	}
